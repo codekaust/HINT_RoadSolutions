@@ -36,7 +36,7 @@ while True:
     if weirdint%20==0 :
         data = {"cars": count}
         result= firebase.put('/p2',"cars", count)
-        print result
+        print(result)
     #press Q on keyboard to exit
     if cv2.waitKey(25) & 0xFF == ord('q'):
         break
