@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ALTERNATE</string>
+    <string name="et_start_i"/>
+    <string name="et_start_j"/>
+    <string name="et_end_i"/>
+    <string name="et_end_j"/>
+
+    @{matrix[0][3].g1 ? @drawable/circle_green : @drawable/circle_red }
+</resources>
